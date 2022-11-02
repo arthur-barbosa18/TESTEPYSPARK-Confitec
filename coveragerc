@@ -1,0 +1,11 @@
+[run]
+omit =
+	*/repo/*
+	*/tables/*
+    */usecase/*
+
+[html]
+directory = coverage_html_report
+
+[xml]
+output = coverage-reports/coverage.xml
